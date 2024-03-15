@@ -9,17 +9,17 @@ interface Project {
 }
 
 const slider1: Project[] = [
-  { color: "#e3e5e7", src: "c2.jpg" },
-  { color: "#d6d7dc", src: "decimal.jpg" },
-  { color: "#e3e3e3", src: "funny.jpg" },
-  { color: "#21242b", src: "google.jpg" },
+  { color: "#e3e5e7", src: "plasa-digital.jpg" },
+  { color: "#d6d7dc", src: "bwm.png" },
+  { color: "#e3e3e3", src: "kopi-nobis.png" },
+  { color: "#21242b", src: "design.png" },
 ];
 
 const slider2: Project[] = [
-  { color: "#d4e3ec", src: "maven.jpg" },
-  { color: "#e5e0e1", src: "panda.jpg" },
-  { color: "#d7d4cf", src: "powell.jpg" },
-  { color: "#e1dad6", src: "wix.jpg" },
+  { color: "#d4e3ec", src: "posthink.png" },
+  { color: "#e5e0e1", src: "kopi-nobis-brand-identity.png" },
+  { color: "#d7d4cf", src: "mudahkan.png" },
+  { color: "#e1dad6", src: "roomtigadua-logo.png" },
 ];
 
 const SlidingImages: React.FC = () => {

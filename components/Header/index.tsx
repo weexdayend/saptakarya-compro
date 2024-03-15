@@ -48,35 +48,7 @@ const Index: React.FC = () => {
             <p className={styles.saptakarya}>saptakarya</p>
           </div>
         </div>
-        <div className={styles.nav}>
-          <Magnetic>
-            <div className={styles.el}>
-              <a>Work</a>
-              <div className={styles.indicator}></div>
-            </div>
-          </Magnetic>
-          <Magnetic>
-            <div className={styles.el}>
-              <a>About</a>
-              <div className={styles.indicator}></div>
-            </div>
-          </Magnetic>
-          <Magnetic>
-            <div className={styles.el}>
-              <a>Contact</a>
-              <div className={styles.indicator}></div>
-            </div>
-          </Magnetic>
-        </div>
       </div>
-      <div ref={button} className={styles.headerButtonContainer}>
-        <Rounded onClick={() => setIsActive(!isActive)} className={`${styles.button}`}>
-          <div className={`${styles.burger} ${isActive ? styles.burgerActive : ''}`}></div>
-        </Rounded>
-      </div>
-      <AnimatePresence mode='wait'>
-        {isActive && <Nav />}
-      </AnimatePresence>
     </>
   );
 };

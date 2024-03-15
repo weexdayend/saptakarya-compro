@@ -7,10 +7,11 @@ interface ProjectProps {
   index: number;
   title: string;
   program: string;
+  company: string;
   manageModal: (active: boolean, index: number, x: number, y: number) => void;
 }
 
-const Project: React.FC<ProjectProps> = ({ index, title, program, manageModal }) => {
+const Project: React.FC<ProjectProps> = ({ index, title, program, company, manageModal }) => {
   return (
     <div
       onMouseEnter={(e) => {
@@ -22,7 +23,7 @@ const Project: React.FC<ProjectProps> = ({ index, title, program, manageModal })
       className={styles.project}
     >
       <div>
-        <h4>{program}</h4>
+        <h4>{program} - <span className='font-bold'>{company}</span></h4>
         <h2>{title}</h2>
       </div>
       <p>Design & Development</p>

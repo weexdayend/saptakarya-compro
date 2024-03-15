@@ -18,7 +18,7 @@ export default function index() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>We stand at the intersection of creativity and technology in the dynamic world of web and application.</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>We stand at the intersection of creativity and technology in the dynamic world of web apps and mobile apps.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
                         <p>About us</p>

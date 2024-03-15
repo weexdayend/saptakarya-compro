@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
         </div>
         <div className={styles.nav}>
           <Rounded>
-            <p>info@saptakarya.co.id</p>
+            <p>admin@saptakarya.co.id</p>
           </Rounded>
           <Rounded>
             <p>+62 812 1459 4538</p>
@@ -49,23 +49,6 @@ const Contact: React.FC = () => {
               <h3>Copyright</h3>
               <p>2023 © Saptakarya</p>
             </span>
-          </div>
-          <div>
-            <span>
-              <h3>socials</h3>
-              <Magnetic>
-                <p>Awwwards</p>
-              </Magnetic>
-            </span>
-            <Magnetic>
-              <p>Instagram</p>
-            </Magnetic>
-            <Magnetic>
-              <p>Dribbble</p>
-            </Magnetic>
-            <Magnetic>
-              <p>Linkedin</p>
-            </Magnetic>
           </div>
         </div>
       </div>
